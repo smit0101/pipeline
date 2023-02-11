@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Deploy'){
             steps{
-                echo "Deploy ${JOB_NAME}"
+                echo "Deploy ${JOB_NAME} Hey"
             }
         }
      
